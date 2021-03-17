@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-image: url('https://venturebeat.com/wp-content/uploads/2018/11/windows-10-2018-insider-wallpaper.jpg?fit=2000%2C1000&strip=all');
+    background-size: 100% 100%;
+    
+}
+
+
+.centercalcy {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 400px;
+    height: 520px;
+    box-shadow: 0 0 10px 1px grey;
+
+}
+
+#app_name {
+    width: inherit;
+    font-size: 0.8rem;
+    padding: 2px 0 2px 10px;
+    background-color: #303030;
+    color:white;
+    border:none;
+    outline: none;
+    padding: 2px 0 2px 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#display_answer {
+    width: inherit;
+    height:100px;
+    background-color: #303030;
+    font-size: 2rem;
+    color: white;
+    text-align: right;
+    outline: none;
+    border: none;
+}
+
+.layer1{
+    width: inherit;
+    display:flex;
+    justify-content: center;
+    height: 90px;
+}
+
+
+.layer2{
+    width: inherit;
+    display:flex;
+    justify-content: center;
+    height: 40px;
+}
+
+input{
+    flex:1;
+    font-size: 1.4rem;
+    color: white;
+    border: 1px solid #504f4f;
+    outline: none;
+
+}
+
+.main_num{
+    background-color: #101011;
+    color:white;
+}
+
+.oper{
+    background-color: #303030;
+}
+
+#clearbutton {
+    font-size: 1rem;
+} 
+
+input:hover{
+    background-color: #474747;
+    border: 1px solid grey;
+
+}
+
